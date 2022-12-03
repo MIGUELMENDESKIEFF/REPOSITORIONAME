@@ -8,6 +8,7 @@
 }
 
 body {
+    margin: 28vh;
     min-width: 100vh;
     background-color: #353333;
     background-size: cover;
@@ -62,9 +63,24 @@ header {
     margin-right: 10px;
 }
 /* Style the footer */
-footer {
-    background-color: rgb(22, 21, 21);
-    padding: 10px;
-    text-align: center;
-    color: #8c45c7;
+.container {
+    align-items: center;
+    justify-content: center;
+    background-color: #8c45c7;
+    padding: 15px;
+    width:40vh;
+    border-radius:20px;
+}
+
+.text-filer{
+    font-size:20px;
+}
+.text-filer h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
