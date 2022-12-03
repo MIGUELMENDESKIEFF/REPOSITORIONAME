@@ -84,3 +84,23 @@ header {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+
+main .main-div {
+    align-items: center;
+    justify-content: center;
+    background-color: #8c45c7;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #8c45c7;
+    text-align: center;
+    padding: 4vh;
+}

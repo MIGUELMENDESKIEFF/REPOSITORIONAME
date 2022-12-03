@@ -1,31 +1,47 @@
-﻿@{
-    Layout = "~/_SiteLayout.cshtml";
-    Page.Title = "About";
-}
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Somos Velozes</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width. initial-scale=1.0">
+    <link rel="stylesheet" href="~/EstiloSite.css">
+    <title>Bem Vindo</title>
+</head>
+<body>
+    <header>
+        <img src="~/Logo/suporteIt.png" class="img" alt="img">
+        <a href="#" class="logo">Suporte.I.T</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="~/BemVindo.cshtml">Home</a></li>
+                <li><a href="~/About.cshtml">Sobre</a></li>
+                <li><a href="~/Contato.cshtml">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<hgroup class="title">
-    <h1>@Page.Title.</h1>
-    <h2>Your app description page.</h2>
-</hgroup>
+    <main>
+        <div class="main-div">
+            <h2>SUPORTEIT</h2>
+            <br />
+            <p>A Suporte-IT é uma empresa que dedica a sua actividade à distribuição de equipamentos e suportes para as áreas de Informática, Audiovisuais e Médica.</p>
+            <br />
+            <h3>SOLUÇÃO</h3>
+            <p>Da experiência adquirida ao longo dos anos, apresentamos aos nossos clientes soluções de instalação e equipamentos de qualidade, indo ao encontro das suas expectativas.</p>
+            <br />
+            <h3> VISÃO </h3>
+            <p>A melhoria contínua dos produtos e equipamentos disponibilizados aos nossos clientes.</p>
+            <br />
+        </div>
+    </main>
 
-<article>
-    <h1>SUPORTEIT</h1>
-    <p>A Suporte-IT é uma empresa que dedica a sua actividade à distribuição de equipamentos e suportes para as áreas de Informática, Audiovisuais e Médica.</p>
-    <h2>Solução</h2>
-    <p>Da experiência adquirida ao longo dos anos, apresentamos aos nossos clientes soluções de instalação e equipamentos de qualidade, indo ao encontro das suas expectativas.</p>
-    <h2>Visão </h2>
-    <p>A melhoria contínua dos produtos e equipamentos disponibilizados aos nossos clientes.</p>
-
-</article>
-
-<aside>
-    <h3>Aside Title</h3>
-    <p>
-        Use this area to provide additional information.
-    </p>
-    <ul>
-        <li><a href="~/">Home</a></li>
-        <li><a href="~/About">About</a></li>
-        <li><a href="~/Contact">Contact</a></li>
-    </ul>
-</aside>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; @DateTime.Now.Year - Suporte completo para Resolução e Gestão de Chamados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

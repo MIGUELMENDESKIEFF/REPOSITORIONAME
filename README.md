@@ -1,2 +1,0 @@
-# REPOSITORIONAME
-Suporte IT
